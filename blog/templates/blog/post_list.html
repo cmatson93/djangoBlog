@@ -1,13 +1,8 @@
-<html>
-
-<head>
-    <title>Django Girls blog</title>
-</head>
-
-<body>
-<h1>HIII </h1>
+{% extends 'blog/index.html' %}
+{% block content %}
+<h1>BLOG POSTS: </h1>
 {% for post in posts %}
-<div>
+<div class="row">
     <h1>
         <a href="">{{ post.title }}</a>
     </h1>
@@ -15,6 +10,4 @@
     <p>published: {{ post.published_date }}</p>
 </div>
 {% endfor %}
-</body>
-
-</html>
+{% endblock %}
