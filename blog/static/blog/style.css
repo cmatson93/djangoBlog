@@ -1,7 +1,54 @@
 nav {
-    background-color: blue;
+    background: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+.row {
+    margin: 10px;
+}
+nav a {
+    color: #CCC9DC;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li:hover {
+    color: #324A5F;
+}
+
  
 body {
-    background-color: grey;
+    background-color: #1B2A41;
+    color: #CCC9DC;
 }
+
+.content {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.content p {
+    color: #1B2A41;
+}
+
+.content a {
+    color: #CCC9DC;
+}
+
+.post {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #324A5F;
+}
+

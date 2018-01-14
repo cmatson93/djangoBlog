@@ -2,20 +2,40 @@
 <html>
 
 <head>
-    <title>Django Girls blog</title>
+    <title>Christina Ng</title>
 </head>
+    
+    {# Font Awesome #}
+    <script src="https://use.fontawesome.com/4b3541b327.js"></script>
 
+    {# bootstrap #}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
+    
+    {# custom css #}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}" />
 
 <body>
-    <nav>
-        <h1>Blog</h1>
-    </nav>
+    <nav class="row sticky-top navbar">
+        <ul>
+            <li >
+              <a >Home</a>
+            </li>
+            <li >
+                <a >About</a>
+            </li>
+            <li>
+                <a>Archive</a>
+            </li>
+            <li>
+                <a>Contact</a>
+            </li>
+        </ul> 
+        <h1>HOME</h1> 
+      </nav>
 
     <div class="wrapper row">
-        <div class="col">
+        <div class="col content">
             {% block content %} {% endblock %}
         </div>
     </div>
