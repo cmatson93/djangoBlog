@@ -7,7 +7,7 @@ def post_list(request):
     return render(request, 'blog/post_list.html', {'posts': posts})
 
 def post_detail(request):
-    post = Post.objects.get(slug= slug)
+    post = Post.objects.get(slug = slug)
     return render(request, 'blog/post_detail.html', {'post': post})
 
 
