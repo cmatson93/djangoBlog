@@ -37,20 +37,9 @@ body {
     flex-grow: 1;
 }
 
-.content p {
-    color: #1B2A41;
-}
-
 .content a {
     color: #CCC9DC;
 }
-
-
-/* .posts {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
 
 .post {
     border: 1px solid white;
