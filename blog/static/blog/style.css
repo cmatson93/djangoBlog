@@ -7,6 +7,7 @@ nav {
 .row {
     margin: 10px;
 }
+
 nav a {
     color: #CCC9DC;
     margin: 2px;
@@ -24,7 +25,6 @@ nav a:hover {
     text-decoration: none;
 }
 
- 
 body {
     background-color: #1B2A41;
     color: #CCC9DC;
@@ -45,6 +45,13 @@ body {
     color: #CCC9DC;
 }
 
+
+/* .posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
 .post {
     border: 1px solid white;
     margin: 10px;
@@ -52,4 +59,3 @@ body {
     border-radius: 5px;
     background-color: #324A5F;
 }
-

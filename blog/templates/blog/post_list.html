@@ -1,14 +1,12 @@
-{% extends 'blog/index.html' %} {% block content %}
-<div class="col post">
-    {% for post in posts %}
-    <div class="row">
+{% extends 'blog/index.html' %} {% block content %} {% for post in posts %}
+<div class="post">
+    <div class="row ">
         <h1>
             <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
         </h1>
     </div>
     <div class="row">
-        <p>{{ post.snippet|linebreaksbr }}</p>
+        <p>{{ post.snippet }}</p>
     </div>
-    {% endfor %}
 </div>
-{% endblock %}
+{% endfor %} {% endblock %}
