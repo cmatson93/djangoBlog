@@ -1,9 +1,14 @@
-{% extends 'blog/index.html' %} {% block content %} {% for post in posts %}
-<div class="row post">
-    <h1>
-        <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
-    </h1>
-    <p>{{ post.text|linebreaksbr }}</p>
-    <p>published: {{ post.published_date }}</p>
+{% extends 'blog/index.html' %} {% block content %}
+<div class="col post">
+    {% for post in posts %}
+    <div class="row">
+        <h1>
+            <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
+        </h1>
+    </div>
+    <div class="row">
+        <p>{{ post.snippet|linebreaksbr }}</p>
+    </div>
+    {% endfor %}
 </div>
-{% endfor %} {% endblock %}
+{% endblock %}
