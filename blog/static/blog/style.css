@@ -48,3 +48,12 @@ body {
     border-radius: 5px;
     background-color: #324A5F;
 }
+
+#home-img {
+    width: 100px;
+    height: 100px;
+}
+
+.div {
+    background-color: red;
+}
