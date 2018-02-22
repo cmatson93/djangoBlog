@@ -1,7 +1,7 @@
-nav {
+.navbar {
     background: none;
-    display: flex;
-    justify-content: space-between;
+    padding: 0;
+    justify-content: center;
 }
 
 .row {
@@ -9,11 +9,13 @@ nav {
 }
 
 nav a {
-    color: #2C2724;
-    margin: 2px;
+    color: white;
+    padding-right: 10px;
+    margin-right: 10px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    border-right: 1px solid white;
 }
 
 nav li {
@@ -27,7 +29,7 @@ nav a:hover {
 
 body {
     background-color: #DAD9DE;
-    color: #2C2724;
+    /* color: #2C2724; */
 }
 
 .content {
