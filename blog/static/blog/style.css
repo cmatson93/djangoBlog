@@ -9,7 +9,7 @@ nav {
 }
 
 nav a {
-    color: #CCC9DC;
+    color: #2C2724;
     margin: 2px;
     text-decoration: none;
     font-size: 30px;
@@ -21,13 +21,13 @@ nav li {
 }
 
 nav a:hover {
-    color: #324A5F;
+    color: #888B92;
     text-decoration: none;
 }
 
 body {
-    background-color: #1B2A41;
-    color: #CCC9DC;
+    background-color: #DAD9DE;
+    color: #2C2724;
 }
 
 .content {
@@ -38,15 +38,15 @@ body {
 }
 
 .content a {
-    color: #CCC9DC;
+    color: #2C2724;
 }
 
 .post {
-    border: 1px solid white;
+    border: 1px solid #2C2724;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #324A5F;
+    background-color: #DAD9DE;
 }
 
 #home-img {
