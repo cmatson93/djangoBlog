@@ -50,10 +50,6 @@ body {
 }
 
 #home-img {
-    width: 100px;
-    height: 100px;
-}
-
-.div {
-    background-color: red;
+    width: 100%;
+    height: 600px;
 }
