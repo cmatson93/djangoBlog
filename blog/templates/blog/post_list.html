@@ -1,15 +1,20 @@
 {% extends 'blog/index.html' %} {% block content %}
-<!-- <img id="home-img" src="../static/assets/computer.png" style="max-width:100vh">
-<h1 class="div">div</h1> -->
-{% for post in posts %}
-<div class="post">
-    <div class="row ">
-        <h1>
-            <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
-        </h1>
-    </div>
-    <div class="row">
-        <p>{{ post.snippet }}</p>
-    </div>
+<div class="img-container">
+    <img class="centered-logo" src="../static/assets/logo.png">
+    <h1 class="centered-name">CHRISTINA NG</h1>
+    <img id="home-img" src="../static/assets/computer.png">
 </div>
-{% endfor %} {% endblock %}
+<div class="post-row">
+    {% for post in posts %}
+    <div class="post">
+        <div class="row ">
+            <h1>
+                <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
+            </h1>
+        </div>
+        <div class="row">
+            <p>{{ post.snippet }}</p>
+        </div>
+    </div>
+    {% endfor %} {% endblock %}
+</div>

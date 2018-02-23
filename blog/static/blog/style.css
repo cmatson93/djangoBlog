@@ -49,11 +49,21 @@ body {
     color: white;
 }
 
+.wrapper {
+    margin: 0;
+}
+
 .content {
-    margin: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.post-row {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
 }
 
 .content a {

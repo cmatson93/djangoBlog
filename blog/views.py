@@ -10,4 +10,5 @@ def post_detail(request, slug):
     post = Post.objects.get(slug = slug)
     return render(request, 'blog/post_details.html', {'post': post})
 
-
+def about_page(request):
+    return render(request, 'blog/about.html')
