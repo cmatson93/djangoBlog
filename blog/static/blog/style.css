@@ -33,6 +33,9 @@ nav a:hover {
 
 body {
     background-color: #DAD9DE;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .img-container {
