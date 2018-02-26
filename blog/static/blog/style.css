@@ -43,6 +43,15 @@ body {
     text-align: center;
 }
 
+.images {
+    max-height: 310px;
+    /* display: flex; */
+}
+
+.pic {
+    /* flex-shrink: 1; */
+}
+
 .centered-logo {
     position: absolute;
     top: 23%;
