@@ -48,10 +48,6 @@ body {
     /* display: flex; */
 }
 
-.pic {
-    /* flex-shrink: 1; */
-}
-
 .centered-logo {
     position: absolute;
     top: 23%;
@@ -115,4 +111,8 @@ body {
     background-color: #888B92;
     color: #DAD9DE;
     padding: 5px 0 5px 50px;
+}
+
+.article-detail {
+    margin: 40px 125px;
 }
