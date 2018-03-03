@@ -114,6 +114,10 @@ body {
     margin: 0;
 }
 
+.title h3 {
+    margin-right: 10px;
+}
+
 .intro-title {
     background-color: #888B92;
 }
