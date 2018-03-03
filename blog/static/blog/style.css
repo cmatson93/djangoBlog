@@ -107,10 +107,15 @@ body {
     border: 1px solid black;
 }
 
-.about-title {
+.title {
     background-color: #888B92;
     color: #DAD9DE;
     padding: 5px 0 5px 50px;
+    margin: 0;
+}
+
+.intro-title {
+    background-color: #888B92;
 }
 
 .article-detail {
