@@ -128,3 +128,18 @@ body {
     border-radius: 3px;
     padding: 5px;
 }
+
+
+/* .post-img {
+    max-width: 500px;
+    max-height: 500px;
+    border: 10px solid yellow;
+}
+
+.article {
+    background-color: red;
+} */
+
+* {
+    border: 1px solid red;
+}
