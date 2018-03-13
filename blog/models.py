@@ -9,7 +9,7 @@ class Post(models.Model):
     slug = models.SlugField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
-    image = models.ImageField(null=True, blank=True)
+    image = models.ImageField(default='../static/assets/c_mor.png')
 
     def publish(self):
         self.published_date = timezone.now()
