@@ -5,10 +5,10 @@
     <title>Christina Ng</title>
 </head>
 
-{# Font Awesome #}
+<!-- {# Font Awesome #} -->
 <script src="https://use.fontawesome.com/4b3541b327.js"></script>
 
-{# bootstrap #}
+<!-- {# bootstrap #} -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
 <!-- google fonts -->
@@ -33,11 +33,21 @@
         </a>
     </nav>
 
-    <div class="wrapper row">
-        <div class="col content">
-            {% block content %} {% endblock %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" content">
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+        <div class=" row icons">
+            <!-- <i class="fas fa-code"></i> -->
+            <h1>HI</h1>
         </div>
     </div>
+
+
+
+
 
 </body>
 

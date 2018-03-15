@@ -4,17 +4,17 @@
     <h1 class="centered-name">CHRISTINA NG</h1>
     <img id="home-img" src="../static/assets/computer.png">
 </div>
-<div class="post-row">
-    {% for post in posts %}
-    <div class="post">
-        <div class="row ">
-            <h1>
-                <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
-            </h1>
-        </div>
-        <div class="row">
-            <p>{{ post.snippet }}</p>
-        </div>
+<!-- <div class="post-row"> -->
+{% for post in posts %}
+<div class="post">
+    <div class="row">
+        <h1>
+            <a href="{% url 'blog:detail' slug=post.slug %}">{{ post.title }}</a>
+        </h1>
     </div>
-    {% endfor %} {% endblock %}
+    <div class="row">
+        <p>{{ post.snippet }}</p>
+    </div>
 </div>
+{% endfor %} {% endblock %}
+<!-- </div> -->
