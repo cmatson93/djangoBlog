@@ -12,3 +12,7 @@ def post_detail(request, slug):
 
 def about_page(request):
     return render(request, 'blog/about.html')
+
+
+def contact(request):
+    return render(request, 'blog/contact.html')
